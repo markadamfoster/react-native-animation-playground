@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "amination-practice",
-    "description": "An empty new project",
-    "slug": "amination-practice",
+    "name": "animations-playground",
+    "description":
+      "An app to experiment & practice with react native animations",
+    "slug": "animations-playground",
     "privacy": "public",
     "sdkVersion": "23.0.0",
     "version": "1.0.0",
