@@ -41,7 +41,7 @@ export default class Opacity extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    padding: 30,
     alignItems: 'center',
     justifyContent: 'center'
   },
