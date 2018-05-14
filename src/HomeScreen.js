@@ -20,21 +20,33 @@ export default class App extends Component {
 
     return (
       <View style={s.wrapper}>
+        {/* Combining Animations */}
         <ButtonWrapper>
           <Button
             raised
-            icon={{ name: 'aspect-ratio' }}
-            title="Animating Properties"
-            onPress={() => navigation.navigate('AnimatingProperties')}
+            icon={{ name: 'multiline-chart' }}
+            title="Combining Animations"
+            onPress={() => navigation.navigate('CombiningAnimations')}
           />
         </ButtonWrapper>
 
+        {/* Animated Functions */}
         <ButtonWrapper>
           <Button
             raised
             icon={{ name: 'code' }}
             title="Animated Functions"
             onPress={() => navigation.navigate('AnimatedFunctions')}
+          />
+        </ButtonWrapper>
+
+        {/* Animating Properties */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'aspect-ratio' }}
+            title="Animating Properties"
+            onPress={() => navigation.navigate('AnimatingProperties')}
           />
         </ButtonWrapper>
       </View>
