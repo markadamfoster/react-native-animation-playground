@@ -7,6 +7,7 @@ import AnimatedFunctions from './AnimatedFunctions/AnimatedFunctionsScreen'
 import AnimFuncEvent from './AnimatedFunctions/_Event'
 import AnimFuncDecay from './AnimatedFunctions/_Decay'
 import CombiningAnimations from './CombiningAnimations/CombiningAnimationsScreen'
+import Interpolation from './Interpolation/InterpolationScreen'
 
 export default StackNavigator(
   {
@@ -15,7 +16,8 @@ export default StackNavigator(
     AnimatedFunctions: { screen: AnimatedFunctions },
     AnimFuncEvent: { screen: AnimFuncEvent },
     AnimFuncDecay: { screen: AnimFuncDecay },
-    CombiningAnimations: { screen: CombiningAnimations }
+    CombiningAnimations: { screen: CombiningAnimations },
+    Interpolation: { screen: Interpolation }
   },
   {
     initialRouteName: 'Home',

@@ -20,6 +20,16 @@ export default class App extends Component {
 
     return (
       <View style={s.wrapper}>
+        {/* Interpolation */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Interpolation"
+            onPress={() => navigation.navigate('Interpolation')}
+          />
+        </ButtonWrapper>
+
         {/* Combining Animations */}
         <ButtonWrapper>
           <Button
