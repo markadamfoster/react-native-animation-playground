@@ -8,6 +8,10 @@ import AnimFuncEvent from './AnimatedFunctions/_Event'
 import AnimFuncDecay from './AnimatedFunctions/_Decay'
 import CombiningAnimations from './CombiningAnimations/CombiningAnimationsScreen'
 import Interpolation from './Interpolation/InterpolationScreen'
+import FourCorners from './FourCorners/FourCorners'
+import StaggeredHeads from './StaggeredHeads/StaggeredHeads'
+import StaggeredFormElements from './StaggeredFormElements/StaggeredFormElements'
+import ProgressBar from './ProgressBar/ProgressBar'
 
 export default StackNavigator(
   {
@@ -17,7 +21,11 @@ export default StackNavigator(
     AnimFuncEvent: { screen: AnimFuncEvent },
     AnimFuncDecay: { screen: AnimFuncDecay },
     CombiningAnimations: { screen: CombiningAnimations },
-    Interpolation: { screen: Interpolation }
+    Interpolation: { screen: Interpolation },
+    FourCorners: { screen: FourCorners },
+    StaggeredHeads: { screen: StaggeredHeads },
+    FormElements: { screen: StaggeredFormElements },
+    ProgressBar: { screen: ProgressBar }
   },
   {
     initialRouteName: 'Home',

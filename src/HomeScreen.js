@@ -20,6 +20,46 @@ export default class App extends Component {
 
     return (
       <View style={s.wrapper}>
+        {/* Progress Bar */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Progress Bar"
+            onPress={() => navigation.navigate('ProgressBar')}
+          />
+        </ButtonWrapper>
+
+        {/* Staggered Form Elements */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Staggered Form Elements"
+            onPress={() => navigation.navigate('FormElements')}
+          />
+        </ButtonWrapper>
+
+        {/* Staggered Heads */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Staggered Heads"
+            onPress={() => navigation.navigate('StaggeredHeads')}
+          />
+        </ButtonWrapper>
+
+        {/* Four Corners */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Four Corners"
+            onPress={() => navigation.navigate('FourCorners')}
+          />
+        </ButtonWrapper>
+
         {/* Interpolation */}
         <ButtonWrapper>
           <Button
