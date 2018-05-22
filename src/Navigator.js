@@ -12,6 +12,7 @@ import FourCorners from './FourCorners/FourCorners'
 import StaggeredHeads from './StaggeredHeads/StaggeredHeads'
 import StaggeredFormElements from './StaggeredFormElements/StaggeredFormElements'
 import ProgressBar from './ProgressBar/ProgressBar'
+import Notifications from './Notifications/Notifications'
 
 export default StackNavigator(
   {
@@ -25,7 +26,8 @@ export default StackNavigator(
     FourCorners: { screen: FourCorners },
     StaggeredHeads: { screen: StaggeredHeads },
     FormElements: { screen: StaggeredFormElements },
-    ProgressBar: { screen: ProgressBar }
+    ProgressBar: { screen: ProgressBar },
+    Notifications: { screen: Notifications }
   },
   {
     initialRouteName: 'Home',
