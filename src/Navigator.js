@@ -13,6 +13,7 @@ import StaggeredHeads from './StaggeredHeads/StaggeredHeads'
 import StaggeredFormElements from './StaggeredFormElements/StaggeredFormElements'
 import ProgressBar from './ProgressBar/ProgressBar'
 import Notifications from './Notifications/Notifications'
+import Questionnaire from './Questionnaire/Questionnaire'
 
 export default StackNavigator(
   {
@@ -27,7 +28,8 @@ export default StackNavigator(
     StaggeredHeads: { screen: StaggeredHeads },
     FormElements: { screen: StaggeredFormElements },
     ProgressBar: { screen: ProgressBar },
-    Notifications: { screen: Notifications }
+    Notifications: { screen: Notifications },
+    Questionnaire: { screen: Questionnaire }
   },
   {
     initialRouteName: 'Home',

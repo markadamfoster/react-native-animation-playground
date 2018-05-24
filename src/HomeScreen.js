@@ -20,6 +20,16 @@ export default class App extends Component {
 
     return (
       <View style={s.wrapper}>
+        {/* Questionnaire */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Questionnaire"
+            onPress={() => navigation.navigate('Questionnaire')}
+          />
+        </ButtonWrapper>
+
         {/* Notifications */}
         <ButtonWrapper>
           <Button
