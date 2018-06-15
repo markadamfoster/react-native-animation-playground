@@ -14,6 +14,8 @@ import StaggeredFormElements from './StaggeredFormElements/StaggeredFormElements
 import ProgressBar from './ProgressBar/ProgressBar'
 import Notifications from './Notifications/Notifications'
 import Questionnaire from './Questionnaire/Questionnaire'
+import PhotoGrid from './PhotoGrid/PhotoGrid'
+import ColorPicker from './ColorPicker/ColorPicker'
 
 export default StackNavigator(
   {
@@ -29,7 +31,9 @@ export default StackNavigator(
     FormElements: { screen: StaggeredFormElements },
     ProgressBar: { screen: ProgressBar },
     Notifications: { screen: Notifications },
-    Questionnaire: { screen: Questionnaire }
+    Questionnaire: { screen: Questionnaire },
+    PhotoGrid: { screen: PhotoGrid },
+    ColorPicker: { screen: ColorPicker }
   },
   {
     initialRouteName: 'Home',

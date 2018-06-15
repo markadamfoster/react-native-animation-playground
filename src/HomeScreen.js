@@ -20,6 +20,26 @@ export default class App extends Component {
 
     return (
       <View style={s.wrapper}>
+        {/* Color Picker */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Color Picker"
+            onPress={() => navigation.navigate('ColorPicker')}
+          />
+        </ButtonWrapper>
+
+        {/* Photo Grid */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Photo Grid"
+            onPress={() => navigation.navigate('PhotoGrid')}
+          />
+        </ButtonWrapper>
+
         {/* Questionnaire */}
         <ButtonWrapper>
           <Button
