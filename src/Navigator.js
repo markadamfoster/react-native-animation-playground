@@ -16,6 +16,11 @@ import Notifications from './Notifications/Notifications'
 import Questionnaire from './Questionnaire/Questionnaire'
 import PhotoGrid from './PhotoGrid/PhotoGrid'
 import ColorPicker from './ColorPicker/ColorPicker'
+import FloatingActionMenu from './FloatingActionMenu/FloatingActionMenu'
+import AppIntro from './AppIntro/AppIntro'
+import WriteButton from './WriteButton/WriteButton'
+import ModalSwipeAway from './ModalSwipeAway/ModalSwipeAway'
+import HorizontalParallax from './HorizontalParallax/HorizontalParallax'
 
 export default StackNavigator(
   {
@@ -33,7 +38,12 @@ export default StackNavigator(
     Notifications: { screen: Notifications },
     Questionnaire: { screen: Questionnaire },
     PhotoGrid: { screen: PhotoGrid },
-    ColorPicker: { screen: ColorPicker }
+    ColorPicker: { screen: ColorPicker },
+    FloatingActionMenu: { screen: FloatingActionMenu },
+    AppIntro: { screen: AppIntro },
+    WriteButton: { screen: WriteButton },
+    ModalSwipeAway: { screen: ModalSwipeAway },
+    HorizontalParallax: { screen: HorizontalParallax }
   },
   {
     initialRouteName: 'Home',

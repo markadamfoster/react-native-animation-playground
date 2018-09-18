@@ -1,11 +1,5 @@
 import React, { Component } from 'react'
-import {
-  StyleSheet,
-  Text,
-  View,
-  TouchableWithoutFeedback,
-  Animated
-} from 'react-native'
+import { StyleSheet, View } from 'react-native'
 import styled from 'styled-components'
 
 import { Button } from 'react-native-elements'
@@ -20,6 +14,56 @@ export default class App extends Component {
 
     return (
       <View style={s.wrapper}>
+        {/* Horizontal Parallax */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Horizontal Parallax"
+            onPress={() => navigation.navigate('HorizontalParallax')}
+          />
+        </ButtonWrapper>
+
+        {/* Modal w/ Swipe Away */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Modal w/ Swipe Away"
+            onPress={() => navigation.navigate('ModalSwipeAway')}
+          />
+        </ButtonWrapper>
+
+        {/* Write Button */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Write Button"
+            onPress={() => navigation.navigate('WriteButton')}
+          />
+        </ButtonWrapper>
+
+        {/* App Intro */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="App Intro"
+            onPress={() => navigation.navigate('AppIntro')}
+          />
+        </ButtonWrapper>
+
+        {/* Floating Action Menu */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Floating Action Menu"
+            onPress={() => navigation.navigate('FloatingActionMenu')}
+          />
+        </ButtonWrapper>
+
         {/* Color Picker */}
         <ButtonWrapper>
           <Button
