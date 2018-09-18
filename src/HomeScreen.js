@@ -14,6 +14,46 @@ export default class App extends Component {
 
     return (
       <View style={s.wrapper}>
+        {/* Expanding Notify Input */}
+        {/* <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Expanding Notify Input"
+            onPress={() => navigation.navigate('ExpandingNotifyInput')}
+          />
+        </ButtonWrapper> */}
+
+        {/* Exploding Heart Button */}
+        {/* <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Exploding Heart Button"
+            onPress={() => navigation.navigate('ExplodingHeartButton')}
+          />
+        </ButtonWrapper> */}
+
+        {/* Bounce Heart Button */}
+        {/* <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Bounce Heart Button"
+            onPress={() => navigation.navigate('BounceHeartButton')}
+          />
+        </ButtonWrapper> */}
+
+        {/* Floating Hearts */}
+        <ButtonWrapper>
+          <Button
+            raised
+            icon={{ name: 'border-style' }}
+            title="Floating Hearts"
+            onPress={() => navigation.navigate('FloatingHearts')}
+          />
+        </ButtonWrapper>
+
         {/* Horizontal Parallax */}
         <ButtonWrapper>
           <Button

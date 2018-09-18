@@ -21,6 +21,10 @@ import AppIntro from './AppIntro/AppIntro'
 import WriteButton from './WriteButton/WriteButton'
 import ModalSwipeAway from './ModalSwipeAway/ModalSwipeAway'
 import HorizontalParallax from './HorizontalParallax/HorizontalParallax'
+import FloatingHearts from './FloatingHearts/FloatingHearts'
+// import BounceHeartButton from './BounceHeartButton/BounceHeartButton'
+// import ExplodingHeartButton from './ExplodingHeartButton/ExplodingHeartButton'
+// import ExpandingNotifyInput from './ExpandingNotifyInput/ExplandingNotifyInput'
 
 export default StackNavigator(
   {
@@ -43,7 +47,11 @@ export default StackNavigator(
     AppIntro: { screen: AppIntro },
     WriteButton: { screen: WriteButton },
     ModalSwipeAway: { screen: ModalSwipeAway },
-    HorizontalParallax: { screen: HorizontalParallax }
+    HorizontalParallax: { screen: HorizontalParallax },
+    FloatingHearts: { screen: FloatingHearts }
+    // BounceHeartButton: { screen: BounceHeartButton },
+    // ExplodingHeartButton: { screen: ExplodingHeartButton },
+    // ExpandingNotifyInput: { screen: ExpandingNotifyInput },
   },
   {
     initialRouteName: 'Home',
